@@ -32,21 +32,17 @@ abstract class mainpage extends page {
 		                        <span class=\"icon-bar\"></span>
 		                        <span class=\"icon-bar\"></span>
 		                    </button>
-		                    <a href=\"index.php?Page=HomePage\" class=\"navbar-brand\">Twitter App</a>
+		                    <a href=\"index.php?Page=HomePage\" class=\"navbar-brand\">Displaying College Data with PDO</a>
 		                </div>
 		                <div class=\"collapse navbar-collapse\"  id=\"NavCollapse\">
-			                <ul class=\"nav navbar-nav navbar-right\">
-			                	<li class=\"\"><a href=\"clearsessions.php\" class=\"success\">Logout</a></li>
-			                </ul>
+		                
 		                </div>
 		            </div>
 		        </nav> <br><br>
 			";
 			$this->Footer = "
 			<div class=\"footer\">
-      			<div class=\"container\">
-        			<p class=\"text-muted\">Place sticky footer content here.</p>
-      			</div>
+
     		</div>
 			";
 			$this->Modals = "";
