@@ -5,7 +5,6 @@ namespace Classes\pages;
 	{
 		function ConstructPage()
 		{	
-			$tweet = "";
 			$this->Header = "";
 			$this->Title = "\t\t<title>College Data Project</title>\n";
 			$this->Header .= "
@@ -20,11 +19,11 @@ namespace Classes\pages;
 		                <div class=\"row\">
 		                    <div class=\"col-sm-12\">
 		                        <div class=\"row\" id=\"Quote\">
-		                            <a href=\"http://web.njit.edu/~jmm77/is218/Twitter/index.php?page=printtimeline\" class=\"btn btn-lg btn-block btn-success\">Colleges that have the highest enrollment</a>
-		                            <a href=\"http://web.njit.edu/~jmm77/is218/Twitter/index.php?page=printfollowers\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest amount of total liabilities</a>
-		                            <a href=\"http://web.njit.edu/~jmm77/is218/Twitter/index.php?page=printprofile\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest amount of net assets</a>
-		                            <a href=\"http://web.njit.edu/~jmm77/is218/Twitter/index.php?page=printprofile\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest amount of net assets</a>
-		                            <a href=\"http://web.njit.edu/~jmm77/is218/Twitter/index.php?page=printtweets\" class=\"btn btn-md btn-block btn-success\">Web page that shows the colleges with the largest percentage increase in enrollment between the years of 2011 and 2010</a>
+		                            <a href=\"index.php?page=webpage1\" class=\"btn btn-lg btn-block btn-success\">Colleges that have the highest enrollment</a>
+		                            <a href=\"index.php?page=webpage2\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest amount of total liabilities</a>
+		                            <a href=\"index.php?page=webpage3\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest amount of net assets</a>
+		                            <a href=\"index.php?page=webpage4\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest amount of net assets</a>
+		                            <a href=\"index.php?page=webpage5\" class=\"btn btn-md btn-block btn-success\">Colleges with the largest percentage increase in enrollment between the years of 2011 and 2010</a>
 		                          </div>
 		                    </div>
 		                </div>
