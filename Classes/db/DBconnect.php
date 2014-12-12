@@ -8,10 +8,10 @@ abstract class DBconnect
 	public $dbh;
 	public $sth;
 
-	public $host = 'localhost';
-	public $database = 'test';
-	public $user = 'root'; 
-	public $pass = '';
+	public $host = 'sql1.njit.edu';
+	public $database = 'jmm77';
+	public $user = 'jmm77'; 
+	public $pass = 'diverse7';
 
 	public function __construct()
 	{
